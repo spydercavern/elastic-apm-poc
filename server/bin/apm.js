@@ -6,7 +6,7 @@ const apm = nodeApm.start({
   serverUrl:
     "https://708ad4887d4544a492efcb1aed995d37.apm.us-central1.gcp.cloud.es.io:443",
   environment: "development",
-  logLevel: "debug",
+  // logLevel: "debug",
 });
 
 module.exports = apm;
