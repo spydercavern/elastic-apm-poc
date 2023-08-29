@@ -13,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "concurrently 'npm run start' 'npm run server'",
     "start": "PORT=3001 react-scripts start",
     "server": "nodemon server/bin/www",
     "build": "react-scripts build && node copy.js",
